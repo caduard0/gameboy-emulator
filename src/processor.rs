@@ -4,6 +4,7 @@ use std::fs::File;
 use std::io::Read;
 use std::path::Path;
 
+#[derive(Clone, Copy, PartialEq)]
 pub enum Register {
     A = 0,
     F = 1,
